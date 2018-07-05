@@ -1,4 +1,4 @@
-# Drzzle Support Documentation
+# Drzzle Support Wiki
 
 ### Run development mode
 ```

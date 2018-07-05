@@ -3,8 +3,7 @@
 ## Formatting
 In the Manage DNS modal, users have the ability to add, delete and edit DNS records for their domains. The following formats are referring to the values entered in the "Points To" input. See below examples.
 
-![
-Manage DNS Modal](./manage-dns-modal.png)
+![Manage DNS Modal](./manage-dns-modal.png)
 
 ### A Record
 A records should be entered in IPv4 format with dotted decimal notation.

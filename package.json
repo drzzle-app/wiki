@@ -1,0 +1,26 @@
+{
+  "name": "support-docs",
+  "version": "1.0.0",
+  "description": "Documentation for usage of the Drzzle application. Made with vuepress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/drzzle-app/support-docs.git"
+  },
+  "keywords": [
+    "drzzle",
+    "documentation",
+    "support",
+    "help",
+    "vuepress"
+  ],
+  "author": "Roger Avalos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drzzle-app/support-docs/issues"
+  },
+  "homepage": "https://github.com/drzzle-app/support-docs#readme"
+}

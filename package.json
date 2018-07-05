@@ -4,7 +4,8 @@
   "description": "Documentation for usage of the Drzzle application. Made with vuepress.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/drzzle-app/support-docs/issues"
   },
-  "homepage": "https://github.com/drzzle-app/support-docs#readme"
+  "homepage": "https://github.com/drzzle-app/support-docs#readme",
+  "devDependencies": {
+    "vuepress": "^0.10.2"
+  }
 }

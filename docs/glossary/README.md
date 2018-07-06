@@ -11,13 +11,19 @@ In general terms, droplets are web components that make up a webpage. They are n
 ![Droplets](./droplets.png) -->
 
 ### Puddle
-A puddle is a kind of droplet that can except more droplets into it. Essentially this means that you have the ability to drop certain
-droplets into it. Each puddle has a certain set of droplets that are allowed in it.
+A puddle is a kind of droplet that can accept more droplets into it. Essentially this means that you have the ability to drop certain
+droplets into a puddle. Each puddle has a certain set of droplets that are allowed in it.
 
 <!-- Show the helper tooltip and show the droplets tab filter with puddles -->
 
 ### Section
-A section is just like it sounds. Pages are made up of sections and sections allow droplets and puddles to be dropped in them. You can have an unlimited amount of sections in a page and an unlimited amount of droplets in a section.
+A section is just like it sounds. Pages are made up of sections and sections allow all droplet types to be dropped in them. You can have an unlimited amount of sections in a page and an unlimited amount of droplets in a section.
 
 ### Content Block
 A content block is a kind of droplet that can be dropped **_outside_** of a section as well as inside. Essentially these droplets can serve as their own section, however most don't allow _other_ droplets to be dropped in them.
+
+### Template
+A template is a tool to create reusable content or layouts. For instance, if you wish to have all of your pages have the same navigation and footer, it's recommended to create a template with those droplets, then choose that template when creating new pages. All pages using a template will be updated when editing the template content.
+
+### Boilerplate
+Boilerplates are pre created websites, usually with a page and a template, created by our team. They typically contain placeholder content and are tailored for a certain type of website (like a restaurant, a church, a blog site etc.). We use UX and visual design best practices when creating them.

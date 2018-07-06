@@ -1,7 +1,12 @@
+const path = require('path');
+
 module.exports = {
   title: 'Drzzle Support Wiki',
   description: 'This is the support wiki for usage of the Drzzle application.',
   port: 8081,
+  head: [
+    ['link', { rel: 'icon', href: '/logo.png' }],
+  ],
   themeConfig: {
     nav: [
       {
@@ -17,6 +22,13 @@ module.exports = {
       },
       {
         title: 'Pages',
+      },
+      {
+        title: 'Templates',
+        children: [
+          '/templates/creating/',
+          '/templates/editing/',
+        ]
       },
       {
         title: 'Domains',

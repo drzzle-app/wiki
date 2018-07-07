@@ -1,5 +1,3 @@
-const path = require('path');
-
 module.exports = {
   title: 'Drzzle Support Wiki',
   description: 'This is the support wiki for usage of the Drzzle application.',

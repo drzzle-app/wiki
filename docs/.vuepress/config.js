@@ -16,6 +16,15 @@ module.exports = {
       '/',
       '/glossary/',
       {
+        title: 'Components',
+        children: [
+          '/components/droplets/',
+          '/components/puddles/',
+          '/components/content-blocks/',
+          '/components/sections/',
+        ]
+      },
+      {
         title: 'Websites',
       },
       {

@@ -147,7 +147,7 @@ export default {
     width 10rem
     color lighten($textColor, 25%)
     display inline-block
-    border 1px solid darken($accentColor, 20%)
+    border 1px solid transparent
     border-radius 2rem
     font-size 0.9rem
     line-height 2rem
@@ -158,7 +158,7 @@ export default {
     background-size 1rem
     &:focus
       cursor auto
-      border-color $accentColor
+      border-color darken($accentColor, 20%)
   .suggestions
     background #fff
     width 20rem

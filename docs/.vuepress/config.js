@@ -3,7 +3,7 @@ module.exports = {
   description: 'This is the support wiki for usage of the Drzzle application.',
   port: 8081,
   head: [
-    ['link', { rel: 'icon', href: '/logo.png' }],
+    ['link', { rel: 'icon', href: '/drzzle-favicon.png' }],
   ],
   themeConfig: {
     nav: [

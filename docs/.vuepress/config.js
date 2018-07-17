@@ -3,7 +3,13 @@ module.exports = {
   description: 'This is the support wiki for usage of the Drzzle application.',
   port: 8081,
   head: [
-    ['link', { rel: 'icon', href: '/drzzle-favicon.png' }],
+    [
+      'link', {
+        rel: 'shortcut icon',
+        href: '/drzzle-favicon.png',
+        type: 'image/png',
+      },
+    ],
   ],
   themeConfig: {
     nav: [
@@ -16,6 +22,21 @@ module.exports = {
       '/',
       '/glossary/',
       {
+        title: 'Websites',
+        children: [
+          '/websites/adding/',
+          '/websites/basic-editing/',
+        ]
+      },
+      {
+        title: 'Domains',
+        children: [
+          '/domains/adding/',
+          '/domains/records/',
+          '/domains/transfer/',
+        ]
+      },
+      {
         title: 'Components',
         children: [
           '/components/droplets/',
@@ -25,24 +46,17 @@ module.exports = {
         ]
       },
       {
-        title: 'Websites',
+        title: 'Pages',
       },
       {
-        title: 'Pages',
+        title: 'Drafts',
       },
       {
         title: 'Templates',
         children: [
           '/templates/creating/',
           '/templates/editing/',
-        ]
-      },
-      {
-        title: 'Domains',
-        children: [
-          '/domains/records/',
-          '/domains/transfer/',
-          '/domains/purchase/'
+          '/templates/deleting/',
         ]
       },
       {

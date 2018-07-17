@@ -62,6 +62,9 @@ module.exports = {
       {
         title: 'Site Map',
       },
+      {
+        title: 'Code',
+      },
     ]
   },
 }

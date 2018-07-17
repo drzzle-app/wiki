@@ -1,7 +1,9 @@
 # DNS Records
+In the Manage DNS modal, users have the ability to add, delete and edit DNS records for their domains.
 
-## Formatting
-In the Manage DNS modal, users have the ability to add, delete and edit DNS records for their domains. The following formats are referring to the values entered in the "Points To" input. See below examples.
+
+## Points To Values
+The following formats are referring to the values entered in the "Points To" input. See below examples.
 
 ![Manage DNS Modal](./manage-dns-modal.png)
 
@@ -15,12 +17,6 @@ A records should be entered in IPv4 format with dotted decimal notation.
 AAAA records should be entered in IPv6 format with colon-separated hexadecimals.
 ```
 2001:0db8:85a3:0:0:8a2e:0370:7334
-```
-
-### CNAME Record
-CNAME records should be entered in the domain name format. You cannot use a top node of a DNS namespace. For example ```mydomain.com``` doesn't work but ```subdomain.mydomain.com``` will work.
-```
-hostname.example.com
 ```
 
 ### MX Record
@@ -50,4 +46,15 @@ v=spf1 ip4:192.168.0.1/16 -all
 SRV records should contain four space-separated values. The first three values are numbers representing priority, weight, and port. The last value is a domain name.
 ```
 10 5 80 hostname.example.com
+```
+
+## Host Values
+The following formats are referring to the values entered in the "Host" input. See below examples.
+
+![Manage DNS Modal](./manage-dns-host.png)
+
+### CNAME Record
+CNAME records should be entered in the domain name format. You cannot use a top node of a DNS namespace. For example ```mydomain.com``` doesn't work but ```subdomain.mydomain.com``` will work.
+```
+hostname.example.com
 ```

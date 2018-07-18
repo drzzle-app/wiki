@@ -11,7 +11,7 @@ You can filter droplets in this tab by types (puddles, content blocks and all ty
 
 ## Adding Droplets
 
-Adding droplets to your page is as easy as dragging and dropping them where you want them. All droplet types can be dropped inside of a section at the very least. Certain droplet types can be dropped in other areas (see puddles and content blocks).
+Adding droplets to pages is as easy as dragging and dropping them where you want them. All droplet types can be dropped inside of a section at the very least. Certain droplet types can be dropped in other areas (see [puddles](/components/puddles/#droplets-allowed) and [content blocks](/components/content-blocks/#allowed-targets)).
 
 ![Adding droplets](./drop-droplet.gif)
 
@@ -37,6 +37,6 @@ To rearrange droplets, open the droplet options by hovering over the drop icon o
 
 ## Deleting Droplets
 
-To delete droplets you will need to open the droplet options by hovering over the drop icon on the droplet then click the red remove button. To save changes, you will also need to open the save options modal from the top control bar and save the page. Bare in mind, when you edit, delete or add droplets to a _template_, every page that uses that template will be updated with those changes.
+To delete droplets you will need to open the droplet options by hovering over the drop icon on the droplet then click the red remove button. To save changes, you will also need to open the save options modal from the top control bar and save the page. Bare in mind, when you edit, delete or add droplets in a _template_, every page that uses that template will be updated with those changes.
 
 ![remove droplets](./droplet-delete.gif)

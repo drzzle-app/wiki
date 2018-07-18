@@ -1,3 +1,3 @@
 # Deleting Templates
 
-Templates are not deletable at the moment
+Templates are not deletable if in use

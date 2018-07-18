@@ -5,11 +5,6 @@ Around the drzzle application, you'll notice some buzz words that may not be sup
 ### Droplet
 Droplets are web components that make up a webpage. They are not limited to a type, rather, they can be a wide range of things, including a video player, some general text, a map, a navigation menu, a button, tabs, cards and the list goes on.
 
-<!-- Maybe we have a separate page for "building a page" where we talk about this -->
-<!-- Upon launching the site editor you can see the list of available droplets at the bottom of the screen. Our friendly UI lets you drag and drop these right on the page.
-
-![Droplets](./droplets.png) -->
-
 ### Puddle
 A puddle is a _type_ of droplet that can accept more droplets into it. Essentially this means that you have the ability to drop certain
 droplets into a puddle. Each puddle has a certain set of droplets that are allowed in it.
@@ -24,6 +19,9 @@ A content block is a kind of droplet that can be dropped **_outside_** of a sect
 
 ### Template
 A template is a tool to create reusable content or layouts. For instance, if you wish to have all of your pages have the same navigation and footer, it's recommended to create a template with those droplets, then choose that template when creating new pages. All pages using a template will be updated when editing the template content.
+
+### Draft
+A draft is a copy of a page that can be used to experiment with. It can also be used to save your work that may be in progress and not yet complete. Once a user publishes the draft, it will override the live page.
 
 ### Boilerplate
 Boilerplates are pre created websites, usually with a page and a template, created by our team. They typically contain placeholder content and are tailored for a certain type of website (like a restaurant, a church, a blog site etc.). We use UX and visual design best practices when creating them.

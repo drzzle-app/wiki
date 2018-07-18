@@ -47,9 +47,19 @@ module.exports = {
       },
       {
         title: 'Pages',
+        children: [
+          '/pages/searching/',
+          '/pages/creating/',
+          '/pages/editing/',
+          '/pages/deleting/',
+        ]
       },
       {
         title: 'Drafts',
+        children: [
+          '/drafts/creating/',
+          '/drafts/publishing/',
+        ]
       },
       {
         title: 'Templates',

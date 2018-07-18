@@ -37,6 +37,12 @@ module.exports = {
         ]
       },
       {
+        title: 'SSL Certificates',
+        children: [
+          '/ssl/adding/',
+        ]
+      },
+      {
         title: 'Components',
         children: [
           '/components/droplets/',
@@ -70,7 +76,11 @@ module.exports = {
         ]
       },
       {
-        title: 'Site Map',
+        title: 'Global Options',
+        children: [
+          '/global/sitemap/',
+          '/global/favicon/',
+        ],
       },
       {
         title: 'Code',

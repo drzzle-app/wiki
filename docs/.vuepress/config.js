@@ -59,6 +59,7 @@ module.exports = {
           '/pages/searching/',
           '/pages/creating/',
           '/pages/editing/',
+          '/pages/scrolling/',
           '/pages/deleting/',
         ]
       },
@@ -85,7 +86,7 @@ module.exports = {
         ],
       },
       {
-        title: 'Code',
+        title: 'Developers',
       },
     ]
   },

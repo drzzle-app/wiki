@@ -40,6 +40,8 @@ module.exports = {
         title: 'SSL Certificates',
         children: [
           '/ssl/adding/',
+          '/ssl/editing/',
+          '/ssl/deleting/',
         ]
       },
       {

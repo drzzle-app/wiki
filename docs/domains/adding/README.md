@@ -37,7 +37,7 @@ Zip Code: 78223
 ## Pre-Owned
 If you already own a domain, there are 2 ways to add it to your site. See below for step by steps for both methods.
 
-### Point your name servers to Drzzle's
+### Method One - Point your name servers to Drzzle's
 The first method is to point your domain's name servers to ours. We highly recommend this method because of the way our backend is setup. We use Amazon Web Services's Route53 domains in conjunction with CloudFront and there is a special DNS record route53 uses to alias to your site's CloudFront distribution. What this means is that you can safely have your records setup without interrupting any other services you may use in the future with your domain (like email). Doing this also allows you to control DNS records within our control panel. The only caveat is that AWS charges a small monthly fee for this.
 
 Steps:
@@ -57,7 +57,7 @@ Steps:
 4) After clicking add from the previous step, you'll see a set of name servers which you'll then need to go and set at the registrar where you bought your domain. Contact your registrar if you need assistance.
 
 
-### Keep your name servers
+### Method Two - Keep your name servers
 The second method is best suited for those that do not want to pay the small monthly fee for the domain or do not plan on using your domain for other services. The caveat here is that you will need to manage your DNS records yourself.
 
 1) Click on the "Add Domain" button from the site's "Domains" tab.

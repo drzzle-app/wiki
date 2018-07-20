@@ -26,5 +26,8 @@
   "homepage": "https://github.com/drzzle-app/support-docs#readme",
   "devDependencies": {
     "vuepress": "^0.10.2"
+  },
+  "dependencies": {
+    "picazzo": "^1.1.3"
   }
 }

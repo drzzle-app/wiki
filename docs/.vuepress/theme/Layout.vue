@@ -28,6 +28,8 @@ import Navbar from './Navbar.vue'
 import Page from './Page.vue'
 import Sidebar from './Sidebar.vue'
 import { resolveSidebarItems } from './util'
+// import picazzo
+import '../../../node_modules/picazzo/dist/css/default.min.css';
 
 export default {
   components: { Home, Page, Sidebar, Navbar },

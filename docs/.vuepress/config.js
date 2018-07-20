@@ -54,6 +54,12 @@ module.exports = {
         ]
       },
       {
+        title: 'Themes',
+        children: [
+          '/themes/'
+        ]
+      },
+      {
         title: 'Pages',
         children: [
           '/pages/searching/',

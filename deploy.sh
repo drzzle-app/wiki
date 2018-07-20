@@ -7,7 +7,12 @@ set -e
 npm run docs:build
 
 # if you are deploying to a custom domain
-# echo 'www.example.com' > CNAME
+echo 'wiki.drzzle.com' > CNAME
+
+# commit the new dist
+git add docs/.vuepress/dist
+git commit -m 'upating dist'
+git push origin master
 
 # navigate into the build output directory
 git subtree push --prefix docs/.vuepress/dist/ origin gh-pages

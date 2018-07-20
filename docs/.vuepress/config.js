@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Drzzle Support Wiki',
-  base: '/support-docs/',
+  ga: 'UA-122675256-1',
   description: 'Public facing support wiki for Drzzle.',
   port: 8081,
   head: [

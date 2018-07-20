@@ -3,7 +3,7 @@
 ## Overview
 Having an SSL (Secure Socket Layer) Certificate is a way to secure data being passed from your visitor's web browser to the server that is hosting your site by encrypting it. As newer versions of web browsers are starting to demand this type of security for websites, it is recommended that you install one. If your site does not have an SSL certificate and a visitor is using a browser that requires one, the visitor may get a "Not Secure" warning.
 
-SSL Certificates are added on a per site basis. You can only have one certificate per site but you are not limited to the amount that you can request under your account. To request and install one, you will need to open the site's basic website settings from the Admin Panel and follow the steps below:
+SSL Certificates are added on a per site basis and you will not be billed for them until it is successfully installed. You can only have one certificate per site but you are not limited to the amount that you can request under your account. To request and install one, you will need to open the site's basic website settings from the Admin Panel and follow the steps below:
 
 ## Requesting
 
@@ -23,7 +23,7 @@ If all of the domains you submitted are managed through Drzzle, meaning you eith
 
 **Scenario Two**
 
-If any of the domains you submitted are ***NOT*** managed through drzzle, then you will need to verify those manually. You will need to do this by adding a CNAME record for each domain. The verification step will show you the values you need to submit at your registrar. Once you are finished and the records are done propagating (depending on your domains TTL's), you will need to come back to the request in the admin panel and click on "Finished Verification". After Drzzle re-checks those records for all of the pending domains and all is verified, it will finally install the certificate.
+If any of the domains you submitted are ***NOT*** managed through drzzle, then you will need to verify those manually. You will need to do this by adding a CNAME record for each domain. The verification step will show you the values you need to submit at your registrar. Once you are finished and the records are done propagating (this depends on your domain's TTLs), you will need to come back to the request in the admin panel and click on "Finished Verification". After Drzzle re-checks those records for all of the pending domains and all is verified, it will finally install the certificate.
 
 ![Request SSL cert step 3](./req-cert-step3.png)
 

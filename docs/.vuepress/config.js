@@ -87,6 +87,10 @@ module.exports = {
       },
       {
         title: 'Developers',
+        children: [
+          '/developers/overview/',
+          '/developers/framework/'
+        ]
       },
     ]
   },

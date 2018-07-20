@@ -23,4 +23,6 @@ An **important** thing to note is that when you update a page in your site map, 
 ## Page Children
 When a page in the site map has nested pages (aka children), you'll notice that it will have a toggle icon to the left of it. This allows you to collapse and de-collapse it's children to save space as you're rearranging items. This becomes handy as more and more pages get added to the map and this modal gets longer.
 
+Also keep in mind that if a page has children, you cannot delete the page from your site, you will need to move all of the children out first in the site map then you should be able to delete it.
+
 ![site map example](./sitemap-nest.png)

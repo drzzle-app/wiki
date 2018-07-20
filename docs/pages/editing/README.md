@@ -12,7 +12,7 @@ Aside from adding droplets and sections to pages, each page has it's own SEO, ur
 ![Page settings modal](./page-settings-modal.png)
 
 ## Page SEO
-If you are not familiar with SEO, it stands for Search Engine Optimization and is essentially the practice of optimizing web pages in order to rank higher and earn more relevant traffic in search engines like Google. The page settings modal is where you can improve SEO on your pages.
+SEO stands for Search Engine Optimization and is the practice of optimizing web pages in order to rank higher and earn more relevant traffic in search engines like Google. The page settings modal is where you can improve SEO on your pages.
 
 The page name for instance is important as it will show up in your page ```<title>``` tags when your page is being served on the web. The name will show on visitor browser tabs when on that page.
 

@@ -7,7 +7,7 @@ set -e
 npm run docs:build
 
 # if you are deploying to a custom domain
-echo 'wiki.drzzle.com' > CNAME
+echo 'wiki.drzzle.com' > docs/.vuepress/dist/CNAME
 
 # commit the new dist
 git add docs/.vuepress/dist

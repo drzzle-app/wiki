@@ -2,7 +2,7 @@
 
 Our site map is a way for users to organize their website's directory structure and hierarchy. It's also a way to categorize content for search engines. Every page you create will be added to your site map.
 
-## Opening
+## Overview
 
 The site map for your website is located in the top control bar of the site editor. You can get to it by clicking the "Global Options" button. The site map should be in the first tab of that modal.
 

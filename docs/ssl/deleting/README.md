@@ -1,4 +1,4 @@
-## Deleting SSL Certs
+# Deleting SSL Certs
 
 Deleting certificates is a simple process. Follow the steps below:
 

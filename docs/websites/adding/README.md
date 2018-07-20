@@ -1,6 +1,6 @@
-# Adding New Websites
+# Adding Websites
 
-Adding a new website is extremely simple, just follow the steps below.
+Users are not limited to the amount of websites they can add. Adding a new website is very simple, just follow the steps below.
 
 1) Navigate to the admin panel and to the websites tab.
 

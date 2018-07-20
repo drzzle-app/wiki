@@ -1,6 +1,6 @@
-# Basic Website Settings
+# Website Settings
 
-After creating a new site _or_ by click a site from the "My Websites" list, you can view the basic editing options page like below.
+After creating a new website _or_ by clicking a site from the "My Websites" list, you will be taken to the site's basic settings page. See example below:
 
 ![Droplets](./edit-site-basic.png)
 

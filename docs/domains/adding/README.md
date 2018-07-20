@@ -1,6 +1,6 @@
 # Adding Domains
 
-Domains are added on a per site basis and you can add as many as you like. To add one, you will need to open the site's basic website settings from the Admin Panel.
+Domains are added on a per site basis and you can add as many as you like. To add one, you will need to open the site's basic website settings page from the Admin Panel.
 
 ## Purchasing
 Follow these steps to purchase a domain name
@@ -17,7 +17,9 @@ Follow these steps to purchase a domain name
 
 ![Purchase domain step 3](./purchase-domain-step-3.png)
 
-4) Finally, once you find a domain available for purchase, just select the amount of years you would like it for then click purchase.
+4) Finally, once you find a domain available for purchase, select the amount of years you would like to purchase it for, decide if you want to auto renew it or not then click purchase.
+
+![Purchase domain step 4](./purchase-domain-step-4.png)
 
 By default, if you purchase a domain through our application, the registrant contact information is our information, however we
 can change this to your contact information for you at your request. Here is what that looks like:
@@ -55,6 +57,8 @@ Steps:
 ![add owned domain step 3](./owned-m1-step-3.png)
 
 4) After clicking add from the previous step, you'll see a set of name servers which you'll then need to go and set at the registrar where you bought your domain. Contact your registrar if you need assistance.
+
+Once this is all complete, you will now be able to create DNS records within the Admin Panel.
 
 
 ### Method Two - Keep your name servers

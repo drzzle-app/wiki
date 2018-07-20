@@ -14,8 +14,12 @@ module.exports = {
   themeConfig: {
     nav: [
       {
-        text: 'Drzzle',
+        text: 'Homepage',
         link: 'https://drzzle.com',
+      },
+      {
+        text: 'Start Free Trial',
+        link: 'https://signup.drzzle.com',
       },
     ],
     sidebar: [

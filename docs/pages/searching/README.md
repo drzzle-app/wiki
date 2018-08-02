@@ -6,7 +6,7 @@ In order to find and edit any page type (pages, drafts and templates), you will 
 
 ![Search pages step 1](./search-pages-s1.png)
 
-2) When the search modal is open, you can filter pages by type (pages, drafts or templates) or can search by name and date.
+2) When the search modal is open, you can filter pages by type (pages, drafts or templates) or you can search by name and date.
 
 ![Search pages step 2](./search-pages-s2.png)
 

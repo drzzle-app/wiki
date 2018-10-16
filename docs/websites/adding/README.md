@@ -8,8 +8,16 @@ Users are not limited to the amount of websites they can add. Adding a new websi
 
 ![Adding site step 2](./adding-site-step-1.png)
 
-3) Fill in your new site name and click save
+3) Fill in your new site name and click "next"
 
 ![Adding site step 3](./adding-site-step-2.png)
 
-You should see your new site show up in the "My Websites" list. To start editing the website's content, you can click the "launch editor" button.
+4) Select a boilerplate to start from them hit "next". The example only has 1 but there should be more options to choose from.
+
+![Adding site step 4](./adding-site-step-3.png)
+
+5) Finally, you will see a confirmation message before you agree to proceed. The message will depend on if there is an additional charge or not. Your first site will always be free.
+
+![Adding site step 5](./adding-site-step-4.png)
+
+After this, you should launch right into the site's settings view. From there you can edit basic global settings and you can also launch the drag and drop site editor.

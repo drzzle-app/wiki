@@ -19,8 +19,14 @@ Creating a template is the same process as creating a page. See below for steps:
 From here you should be taken to a blank template where you can start creating your reusable content.
 
 ## Using the Template
-To allow your pages to use a template, you will need to select the template when creating a new page like so:
+There are two ways to use a template.
+
+1) When you first create a page, you have the option to select a template to start from:
 
 ![Selecting a template](./use-templ.png)
 
-Currently, it is not possible to add a template to a page that has been created already without one. The only way to use one is during the initial "Create Page" step.
+2) If you create a template after a page has already been created, you can open the page settings modal and select to use it from there:
+
+![Selecting a template after](./add-templ-after.png)
+
+You may need to rearrange the template items after they get injected into the page.

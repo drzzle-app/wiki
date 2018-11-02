@@ -20,7 +20,7 @@ module.exports = {
       },
       {
         text: 'Start Free Trial',
-        link: 'https://signup.drzzle.com',
+        link: 'https://drzzle.com/signup/',
       },
     ],
     sidebar: [

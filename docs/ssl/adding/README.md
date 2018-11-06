@@ -11,7 +11,7 @@ SSL Certificates are added on a per site basis and you will not be billed for th
 
 ![Request SSL cert step 1](./req-cert-step1.png)
 
-2) You can add multiple domains and subdomains that you want covered in the certificate but there is a maximum of 10 names. To help illustrate how to request names, say you have a domain (mydomain.com) and you want this covered in your certificate along with (www.mydomain.com). There are two things you can do. The first is you can submit the first name as ```mydomain.com``` then click "Add Domain" and submit ```www.mydomain.com``` as the second name. The other thing you can do is submit the first as ```mydomain.com``` and the second as ```*.mydomain.com```. The latter option is known as a wildcard and is a good option if you want to cover **_any_** subdomain for mydomain.com. Click "Next" when complete.
+2) You can add multiple domains and subdomains that you want covered in the certificate but there is a maximum of 10 names. To help illustrate how to request names, say you have a domain (mydomain.com) and you want this covered in your certificate along with (www.mydomain.com). There are two things you can do. The first is you can submit the first name as ```mydomain.com``` then click "Add Domain" and submit ```www.mydomain.com``` as the second name. The other thing you can do is submit the first as ```mydomain.com``` and the second as ```*.mydomain.com```. The latter option is known as a wildcard and is a good option if you want to cover **_any_** subdomain for mydomain.com. Click "Submit Request" when complete.
 
 ![Request SSL cert step 2](./req-cert-step2.png)
 

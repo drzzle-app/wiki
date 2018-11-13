@@ -94,6 +94,7 @@ module.exports = {
         children: [
           '/global/sitemap/',
           '/global/favicon/',
+          '/global/fonts/',
         ],
       },
       {

@@ -1,109 +1,87 @@
 module.exports = {
-  title: 'Drzzle Support Wiki',
-  ga: 'UA-122675256-1',
-  description: 'Public facing support wiki for Drzzle.',
+  title: "Drzzle Support Wiki",
+  ga: "UA-122675256-1",
+  description: "Public facing support wiki for Drzzle.",
   port: 8081,
   head: [
     [
-      'link', {
-        rel: 'shortcut icon',
-        href: '/drzzle-favicon.png',
-        type: 'image/png',
-      },
-    ],
+      "link",
+      {
+        rel: "shortcut icon",
+        href: "/drzzle-favicon.png",
+        type: "image/png"
+      }
+    ]
   ],
   themeConfig: {
     nav: [
       {
-        text: 'Homepage',
-        link: 'https://drzzle.com',
-      },
-      {
-        text: 'Start Free Trial',
-        link: 'https://drzzle.com/signup/',
-      },
+        text: "Homepage",
+        link: "https://drzzle.app"
+      }
     ],
     sidebar: [
-      '/',
-      '/glossary/',
+      "/",
+      "/glossary/",
       {
-        title: 'Websites',
+        title: "Websites",
+        children: ["/websites/adding/", "/websites/basic-editing/"]
+      },
+      {
+        title: "Domains",
         children: [
-          '/websites/adding/',
-          '/websites/basic-editing/',
+          "/domains/adding/",
+          "/domains/records/",
+          "/domains/transfer/"
         ]
       },
       {
-        title: 'Domains',
+        title: "SSL Certificates",
+        children: ["/ssl/adding/", "/ssl/editing/", "/ssl/deleting/"]
+      },
+      {
+        title: "Components",
         children: [
-          '/domains/adding/',
-          '/domains/records/',
-          '/domains/transfer/',
+          "/components/droplets/",
+          "/components/puddles/",
+          "/components/content-blocks/",
+          "/components/sections/"
         ]
       },
       {
-        title: 'SSL Certificates',
+        title: "Themes",
+        children: ["/themes/"]
+      },
+      {
+        title: "Pages",
         children: [
-          '/ssl/adding/',
-          '/ssl/editing/',
-          '/ssl/deleting/',
+          "/pages/searching/",
+          "/pages/creating/",
+          "/pages/editing/",
+          "/pages/scrolling/",
+          "/pages/deleting/"
         ]
       },
       {
-        title: 'Components',
+        title: "Drafts",
+        children: ["/drafts/creating/", "/drafts/publishing/"]
+      },
+      {
+        title: "Templates",
         children: [
-          '/components/droplets/',
-          '/components/puddles/',
-          '/components/content-blocks/',
-          '/components/sections/',
+          "/templates/creating/",
+          "/templates/editing/",
+          "/templates/deleting/"
         ]
       },
       {
-        title: 'Themes',
-        children: [
-          '/themes/'
-        ]
+        title: "Global Options",
+        children: ["/global/sitemap/", "/global/favicon/", "/global/fonts/"]
       },
       {
-        title: 'Pages',
-        children: [
-          '/pages/searching/',
-          '/pages/creating/',
-          '/pages/editing/',
-          '/pages/scrolling/',
-          '/pages/deleting/',
-        ]
-      },
-      {
-        title: 'Drafts',
-        children: [
-          '/drafts/creating/',
-          '/drafts/publishing/',
-        ]
-      },
-      {
-        title: 'Templates',
-        children: [
-          '/templates/creating/',
-          '/templates/editing/',
-          '/templates/deleting/',
-        ]
-      },
-      {
-        title: 'Global Options',
-        children: [
-          '/global/sitemap/',
-          '/global/favicon/',
-          '/global/fonts/',
-        ],
-      },
-      {
-        title: 'Developers',
-        children: [
-          '/developers/overview/',
-          '/developers/framework/'
-        ]
-      },
+        title: "Developers",
+        children: ["/developers/overview/", "/developers/framework/"]
+      }
     ]
-  },
-}
+  }
+};

@@ -59,7 +59,8 @@ module.exports = {
           "/pages/creating/",
           "/pages/editing/",
           "/pages/scrolling/",
-          "/pages/deleting/"
+          "/pages/deleting/",
+          "/pages/previewing/"
         ]
       },
       {

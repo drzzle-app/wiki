@@ -8,7 +8,7 @@ module.exports = {
       "link",
       {
         rel: "shortcut icon",
-        href: "/drzzle-favicon.png",
+        href: "/drz-favicon.png",
         type: "image/png"
       }
     ]

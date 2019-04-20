@@ -28,6 +28,10 @@ module.exports = {
         children: ["/websites/adding/", "/websites/basic-editing/"]
       },
       {
+        title: "Sub-Users",
+        children: ["/sub-users/", "/sub-users/creating/"]
+      },
+      {
         title: "Domains",
         children: [
           "/domains/adding/",

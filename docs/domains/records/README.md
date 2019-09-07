@@ -25,6 +25,11 @@ MX records should always contain 2 values. The first is the priority and should 
 10 mail.example.com
 ```
 
+If you need to add multiple MX records you can separate them with a comma. See example:
+```
+10 mail.example.com, 20 mail2.example.com
+```
+
 ### TXT Record
 TXT records have a more complex format. Typically they are one or more strings that are case sensitive. Do not enter double quotes ```"``` at the beginning or ending as Drzzle does this for you. If you do need to use double quotes in your string, you will need to prefix each with a backslash, like so ```\"```.
 

@@ -35,6 +35,24 @@ To rearrange droplets, open the droplet options by hovering over the drop icon o
 
 ![rearrange droplets](./droplet-rearrange.gif)
 
+## Recycling Droplets
+Recycling a droplet is great for saving time on repetitive tasks. You can edit a droplet to how you want it and choose to save it (as recycled) in that state. You can then create new droplets from that. It's important to note that if you update the original droplet it will not reflect on droplets created from it nor will it update the saved recycled droplet. Think of recycling as a way to copy a droplet.
+
+#### Saving a Droplet
+To recycle a droplet, hover over the options for the droplet you want to recycle, enter a name and hit save.
+
+![recycle droplet](./droplet-recycle-1.gif)
+
+#### Loading a Droplet
+To load a recycled droplet, you will need to drop a new droplet on the page as normal. The type of droplet needs to be of that which was recycled. You then can hover over the droplet options and click on the recycle button. Click on the "load existing" tab and select the droplet.
+
+![recycle droplet](./droplet-recycle-2.gif)
+
+#### Deleting a Recycled Droplet
+Recycled droplets can be seen in the "search pages" modal with pages, templates and drafts. Here you can delete any recycled droplets from your data. It's worth noting that if you delete a recycled droplet, it will not affect any droplets that were made from it.
+
+![recycle droplet](./droplet-recycle-3.gif)
+
 ## Deleting Droplets
 
 To delete droplets you will need to open the droplet options by hovering over the drop icon on the droplet then click the red remove button. To save changes, you will also need to open the save options modal from the top control bar and save the page. Bare in mind, when you edit, delete or add droplets in a _template_, every page that uses that template will be updated with those changes.

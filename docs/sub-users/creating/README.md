@@ -8,13 +8,9 @@ Account owners are not limited to the amount of sub-users they can add. Adding a
 
 ![Adding user step 2](./adding-user-step-1.png)
 
-3.  Choose the websites you wish to give this user edit permissions to. Then enter their name, email and new password. The sub-user will have the ability to change their password later. Click "next" when done.
+3.  Choose the websites you wish to give this user edit permissions to. Then enter their name, email and new password. The sub-user will have the ability to change their password later. Click "Add and Invite Sub-User" when done.
 
 ![Adding user step 3](./adding-user-step-2.png)
-
-4.  Finally, you will see a confirmation message before can proceed. If you agree to the terms you can click "Agree and Create".
-
-![Adding user step 4](./adding-user-step-3.png)
 
 The sub-user will be emailed a confirmation code. They will need that the first time they login to the app.
 

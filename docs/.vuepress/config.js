@@ -77,7 +77,7 @@ module.exports = {
       },
       {
         title: "Global Options",
-        children: ["/global/sitemap/", "/global/favicon/", "/global/fonts/"]
+        children: ["/global/sitemap/", "/global/favicon/", "/global/fonts/", "/global/colors/"]
       },
       {
         title: "Developers",

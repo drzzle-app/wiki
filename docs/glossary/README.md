@@ -18,10 +18,10 @@ A section is just like it sounds. Pages are made up of sections and sections all
 A content block is a kind of droplet that can be dropped **_outside_** of a section as well as inside. Essentially these droplets can serve as their own section, however most content blocks don't allow _other_ droplets to be dropped in them.
 
 ### Template
-A template is a tool to create reusable content or layouts. For instance, if you wish to have all of your pages have the same navigation and footer, it's recommended to create a template with those droplets, then choose that template when creating new pages. All pages using a template will be updated when editing the template content.
+A template is consisted of reusable droplets. For instance, if you wish to have all of your pages have the same navigation and footer droplet, it's recommended to create a template with those droplets, then select that template when creating new pages. All pages using a template will be updated when editing the template droplets.
 
 ### Draft
-A draft is a copy of a page that can be used to experiment with. It can also be used to save your work that may be in progress and not yet complete. Once a user publishes the draft, it will override the live page.
+A draft is a copy of a page that can be used to experiment with. It can also be used to save your work that may be in progress and not yet complete. Once a user publishes the draft, it will replace the live page version.
 
 ### Boilerplate
-Boilerplates are pre created websites, usually with a page and a template, created by our team. They typically contain placeholder content and are tailored for a certain type of website (like a restaurant, a church, a blog site etc.). We use UX and visual design best practices when creating them.
+Boilerplates are pre created websites that are created internally. They typically contain placeholder content and are tailored for a certain type of website (like a restaurant, a church, a blog site etc.). We use UX and visual design best practices when creating them.

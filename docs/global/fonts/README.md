@@ -11,9 +11,9 @@ The fonts setting is located in the top control bar of the site editor. Follow t
 
 ![fonts open](./global-options.png)
 
-2) When the modal opens, click on the "Theme" tab.
+2) When the modal opens, click on the "Fonts" tab.
 
-![theme tab](./theme-tab.png)
+![theme tab](./font-tab.png)
 
 3) Click on the "Upload New Font" button and upload your font.
 

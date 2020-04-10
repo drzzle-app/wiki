@@ -16,4 +16,4 @@ You can add and remove colors to each site's palette using the global settings l
 
 3) You can now use your saved color in any droplet or page color option like so.
 
-![global color step 3](./colors-step-3.png)
+![global color step 3](./theme-color-option.png)

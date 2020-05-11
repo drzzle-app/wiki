@@ -1,6 +1,8 @@
 # DNS Records
 In the Manage DNS modal, users have the ability to add, delete and edit DNS records for their domains.
 
+Having issues adding/editing records? Please reach out to us, we're here to help! ```support@drzzle.com```.
+
 
 ## Points To Values
 The following formats are referring to the values entered in the "Points To" input. See below examples.
@@ -59,7 +61,14 @@ The following formats are referring to the values entered in the "Host" input. S
 ![Manage DNS Modal](./manage-dns-host.png)
 
 ### CNAME Record
-CNAME records should be entered in the domain name format. You cannot use a top node of a DNS namespace. For example ```mydomain.com``` doesn't work but ```subdomain.mydomain.com``` will work.
+CNAME records should be entered in the domain name format. You cannot use a top node of a DNS namespace. For example ```mydomain.com``` doesn't work in the "Host" field but ```subdomain.mydomain.com``` will work.
+
+Host
 ```
 hostname.example.com
+```
+
+Points To Value
+```
+example.com
 ```

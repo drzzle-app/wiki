@@ -33,7 +33,7 @@ If you need to add multiple MX records you can separate them with a comma. See e
 ```
 
 ### TXT Record
-TXT records have a more complex format. Typically they are one or more strings that are case sensitive. Do not enter double quotes ```"``` at the beginning or ending as Drzzle does this for you. If you do need to use double quotes in your string, you will need to prefix each with a backslash, like so ```\"```.
+TXT records have a more complex format. Typically they are one or more strings that are case sensitive. TXT values need to be enclosed in quotations ```"```. If you need to use double quotes _inside_ your string, you will need to prefix each with a backslash, like so ```\"```. Case is also preserved, so ```"Ab"``` and ```"aB"``` are different values.
 
 A single string can include up to 255 characters, including the following:
 
@@ -46,7 +46,14 @@ A single string can include up to 255 characters, including the following:
 
 Example:
 ```
-v=spf1 ip4:192.168.0.1/16 -all
+"v=spf1 ip4:192.168.0.1/16 -all"
+```
+
+If you need to enter a value longer than 255 characters, break the value into strings of 255 characters or fewer, and enclose each string in double quotation marks ```"```.
+
+Example:
+```
+"String 1" "String 2" "String 3"
 ```
 
 ### SRV Record

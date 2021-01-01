@@ -91,7 +91,11 @@ module.exports = {
       },
       {
         title: "Developers",
-        children: ["/developers/overview/", "/developers/framework/"]
+        children: [
+          "/developers/overview/",
+          "/developers/webhooks/",
+          "/developers/framework/"
+        ]
       }
     ]
   }

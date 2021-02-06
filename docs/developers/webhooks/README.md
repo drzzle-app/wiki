@@ -1,6 +1,37 @@
 # Webhooks
-Webhooks are available through certain droplets.
+Webhooks are available through certain droplets and events.
 
+## Publish
+You can add one or more webhooks on publish events. These events include each time a page or site is published within the admin panel or site editor. To add a publish webhook, follow the steps below:
+
+1. Navigate to the site's settings tab inside the admin panel.
+
+2. Click "Add Webhook" and paste in the url.
+![publish webhooks step 1](./publish-step-1.png)
+
+3. If you would like to add custom key/values to the webhook payload, you can do so by clicking the edit pencil next to the webhook URL.
+![publish webhooks step 2](./publish-step-2.png)
+
+4. After you're done, click "Save" and you're ready to go!
+
+#### Payload
+The JSON payload that will be sent to your webhook endpoint will always consist of the following:
+```JSON
+{
+  "_meta": {
+    "siteFiles": "array of all site files",
+    "siteName": "site name string",
+    "siteId": "site id string",
+    "timeStamp": "published date string"
+  }
+  .. your custom payload
+}
+```
+
+#### Lambda Publish Template
+If you own an AWS account, we have put together a Lambda template you can use to handle some of the backend work needed for publishing your site files to a server. See the following Github Repo for more on that.
+
+[Site Publish Hook](https://github.com/drzzle-app/site-publish-hook)
 
 ## Form Droplet
 The form droplet offers a webhook option. You can have up to 10 webhooks per form. Webhooks here will run after a site visitor successfully submits your form. To open the webhooks settings do the following:

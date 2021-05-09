@@ -2732,6 +2732,10 @@ he@1.1.x, he@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/he/-/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
 
+highlight.js@*:
+  version "10.7.2"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.7.2.tgz#89319b861edc66c48854ed1e6da21ea89f847360"
+
 hmac-drbg@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
@@ -2752,8 +2756,8 @@ hogan.js@^3.0.2:
     nopt "1.0.10"
 
 hosted-git-info@^2.1.4:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.6.1.tgz#6e4cee78b01bb849dcf93527708c69fdbee410df"
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
 
 html-comment-regex@^1.1.0:
   version "1.1.1"
@@ -3170,6 +3174,10 @@ joi@^11.1.1:
     hoek "4.x.x"
     isemail "3.x.x"
     topo "2.x.x"
+
+jquery@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-2.2.4.tgz#2c89d6889b5eac522a7eea32c14521559c6cbf02"
 
 js-base64@^2.1.9:
   version "2.4.5"
@@ -4242,6 +4250,19 @@ pbkdf2@^3.0.3:
     ripemd160 "^2.0.1"
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
+
+picazzo@^2.2.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/picazzo/-/picazzo-2.8.1.tgz#cd005502710525a6f949769f958cf05babf7423e"
+  dependencies:
+    jquery "^2.2.4"
+    lodash "^4.17.5"
+    vue "^2.6.7"
+    vue-highlightjs "^1.3.3"
+    vue-i18n "^8.8.2"
+    vue-router "^3.0.1"
+    vuejs-logger "1.3.4"
+    vuex "^3.0.1"
 
 pify@^3.0.0:
   version "3.0.0"
@@ -5734,9 +5755,19 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
+vue-highlightjs@^1.3.3:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/vue-highlightjs/-/vue-highlightjs-1.3.3.tgz#29a0d57132fc1ce15cfa61e896918f5b718c5d52"
+  dependencies:
+    highlight.js "*"
+
 vue-hot-reload-api@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.0.tgz#97976142405d13d8efae154749e88c4e358cf926"
+
+vue-i18n@^8.8.2:
+  version "8.24.4"
+  resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-8.24.4.tgz#b158614c1df7db183d9cadddbb73e1d540269492"
 
 vue-loader@^15.2.4:
   version "15.2.4"
@@ -5786,6 +5817,14 @@ vue-template-es2015-compiler@^1.6.0:
 vue@^2.5.16:
   version "2.5.16"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.16.tgz#07edb75e8412aaeed871ebafa99f4672584a0085"
+
+vue@^2.6.7:
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
+
+vuejs-logger@1.3.4:
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/vuejs-logger/-/vuejs-logger-1.3.4.tgz#0845694c8977bab4f270944dd7a0fbdf568e7310"
 
 vuepress-html-webpack-plugin@^3.2.0:
   version "3.2.0"
@@ -5859,6 +5898,10 @@ vuepress@^0.10.2:
     webpack-serve "^1.0.2"
     webpackbar "^2.6.1"
     workbox-build "^3.1.0"
+
+vuex@^3.0.1:
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.6.2.tgz#236bc086a870c3ae79946f107f16de59d5895e71"
 
 watchpack@^1.5.0:
   version "1.6.0"

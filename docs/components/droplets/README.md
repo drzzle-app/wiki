@@ -58,3 +58,39 @@ Recycled droplets can be seen in the "search pages" modal with pages, templates 
 To delete droplets you will need to open the droplet options by hovering over the drop icon on the droplet then click the red remove button. To save changes, you will also need to open the save options modal from the top control bar and save the page. Bare in mind, when you edit, delete or add droplets in a _template_, every page that uses that template will be updated with those changes.
 
 ![remove droplets](./droplet-delete.gif)
+
+## Linkable Droplets
+
+Linkable droplets are droplets that can link to pages or custom links like modal triggers. You can see which droplets are linkable by clicking the filter in the droplets tab.
+
+![linkable droplets](./droplets-linkable.png)
+
+## Modals
+
+Modals are [puddle](/glossary/#puddle) droplets that involve triggers. Modals are hidden on the page and need triggers to be exposed.
+
+![droplet modal example](./modal-final.gif)
+
+See the steps below to learn how to setup a modal on any page.
+
+1. Open the Droplets tab and search for modal
+
+![droplet modal step 1](./modal-step-1.png)
+
+2. Drop the modal anywhere on the page you wish. What you will see is a preview of what the modal will look like when a site visitor opens it. Keep in mind the modal will not look like the preview in the location you drop it. When a visitor triggers it, it should be overlayed over the entire page. Here you can style and configure it as you wish.
+
+![droplet modal step 2](./modal-step-2.png)
+
+3. Drop any allowed droplets into your modal until you get it the way you wish. You can see what other droplets are allowed into the modal by clicking the "Allowed Droplets" helper.
+
+![droplet modal step 3](./modal-step-3.png)
+
+4. There are 2 ways for your site visitors to trigger the modal. One is on page load. To do this all you need to do is select the "Reveal on Page Load" option in the modal settings. For custom triggers, copy the "Modal ID" so you can paste it into a linkable droplet.
+
+![droplet modal step 4](./modal-step-4.png)
+
+5. Select any linkable droplet from the droplets tab or one that's already on the page. You can filter what droplets are linkable in the droplet tab filters. Once you know what droplet you want to use for the trigger (in this case a button), open that droplet's settings then paste the Modal ID into a custom link field.
+
+![droplet modal step 5](./modal-step-5.png)
+
+That's it, you now have a modal on your page!

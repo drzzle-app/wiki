@@ -4,9 +4,9 @@ Our site map is a way for users to organize their website's directory structure 
 
 ## Overview
 
-The site map for your website is located in the top control bar of the site editor. You can get to it by clicking the "Global Options" button. The site map should be in the first tab of that modal.
+The site map for your website is located in the top control bar of the site editor. You can get to it by clicking the "Global Site Options" button. The site map should be in the first tab of that modal.
 
-![global options button](./sitemap-top.png)
+![global site options button](./sitemap-top.png)
 
 The image below is an example of how one would categorize their website for a make believe entertainment company. You'll notice that this map is broken down by music and television. From there you can nest pages that fall under those categories. Please keep in mind that the map only allows up to five levels deep of nesting at the moment.
 

@@ -7,7 +7,7 @@ Some droplets have the option to change it's font. We have a few default web saf
 
 The fonts setting is located in the top control bar of the site editor. Follow the steps below:
 
-1) Click the "Global Options" button.
+1) Click the "Global Site Options" button.
 
 ![fonts open](./global-options.png)
 

@@ -53,8 +53,8 @@ module.exports = {
         children: ["/themes/"]
       },
       {
-        title: "Styling",
-        children: ["/styling/reveal-animations/"]
+        title: "Animations",
+        children: ["/animations/reveal/"]
       },
       {
         title: "Pages",

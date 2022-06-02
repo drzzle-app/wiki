@@ -33,16 +33,16 @@ If you own an AWS account, we have put together a Lambda template you can use to
 
 [Site Publish Hook](https://github.com/drzzle-app/site-publish-hook)
 
-## Form Droplet
-The form droplet offers a webhook option. You can have up to 10 webhooks per form. Webhooks here will run after a site visitor successfully submits your form. To open the webhooks settings do the following:
+## Droplets
+The **form** & **button** droplets offer a webhook option. You can have up to 10 webhooks per droplet. Webhooks here will run after a site visitor successfully submits your form or presses your button. To open the webhooks settings do the following:
 
-1. Hover over the form droplet options and click `Droplet Settings`. Then click the `Webhooks` tab.
+1. Hover over the droplet options and click `Droplet Settings`. Then click the `Webhooks` tab.
 ![code droplet editing](./webhooks-settings.png)
 
 2. Click add webhook and enter your endpoint url. It's that easy.
 
 #### Payload
-The form's JSON payload that will be sent to your endpoint will always consist of the following:
+The payload that will be sent to your endpoint will always consist of the following:
 ```JSON
 {
   "_meta": {
@@ -57,12 +57,16 @@ The form's JSON payload that will be sent to your endpoint will always consist o
 }
 ```
 #### Adding to Payload
-Your form fields will automatically be added to the payload by label and value the visitor submits.
+In all webhook droplets you can add custom key value pairs to send to your endpoint(s). You can set them in the webhook settings dropdown.
+
+![droplet webhooks custom](./webhooks-custom-values.png)
+
+For form droplets specifically, it's fields will automatically be added to the payload as well. They will be grouped by label and value the site visitor submits.
 
 Take a form with these fields for example:
-![code droplet editing](./form-example.png)
+![form example webhooks](./form-example.png)
 
-The payload sent to your endpoint, after a successful submission, would look like this:
+The payload sent to your endpoint, after a successful form submission, would look like this:
 ```JSON
 {
   "_meta": {

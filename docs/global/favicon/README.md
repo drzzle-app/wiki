@@ -10,7 +10,7 @@ Although there is no impact with SEO on using them, favicons are a great way to 
 ## Uploading
 The favicon setting is located in the top control bar of the site editor. Follow the steps below:
 
-1) Click the "Global Options" button.
+1) Click the "Global Site Options" button.
 
 ![favicon open](./favicon-top.png)
 

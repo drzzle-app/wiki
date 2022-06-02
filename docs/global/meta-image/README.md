@@ -8,7 +8,7 @@ The site meta image is used for SEO purposes. It can be seen in various places i
 ## Uploading
 The meta image is located in the top control bar of the site editor. Follow the steps below:
 
-1) Click the "Global Options" button.
+1) Click the "Global Site Options" button.
 
 ![global tab](./global-options.png)
 
@@ -16,7 +16,7 @@ The meta image is located in the top control bar of the site editor. Follow the 
 
 ![meta tab](./meta-tab.png)
 
-3) Click on the "Upload New Image" button and select an image.
+3) Click on the "Upload" button and select an image.
 
 ## Specifications
 

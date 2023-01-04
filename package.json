@@ -28,6 +28,6 @@
   "devDependencies": {},
   "dependencies": {
     "picazzo": "^2.2.1",
-    "vuepress": "^0.10.2"
+    "vuepress": "^1.9.7"
   }
 }
